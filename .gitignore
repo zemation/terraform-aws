@@ -1,0 +1,15 @@
+# Terraform state — never commit
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Variable file with secrets
+terraform.tfvars
+
+# Terraform working directories
+.terraform/
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+crash.*.log
