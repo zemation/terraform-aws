@@ -1,4 +1,3 @@
-````
 # terraform-aws
 
 Terraform configuration for provisioning an AWS environment including VPC, subnets, security groups, IAM, and an EC2 instance. Uses cloud-init to bootstrap the server on first boot, including installation of the [sysinfo](https://github.com/zemation/sysinfo) CLI tool. Terraform state is stored remotely in S3 with DynamoDB state locking.
@@ -163,4 +162,3 @@ On first boot cloud-init runs and installs:
 - AMI is dynamically looked up — always pulls the latest Ubuntu 24.04 LTS from Canonical
 - cloud-init runs once on first boot — to re-run provisioning destroy and reapply
 - S3 bucket and DynamoDB table must exist before running `terraform init`
-````
