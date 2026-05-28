@@ -1,0 +1,5 @@
+region          = "us-east-1"
+project_name    = "INSERT_PROJECT_NAME"
+instance_type   = "t3.micro"
+key_name        = "INSERT_KEY_NAME"
+sysinfo_version = "v1.0.0"
